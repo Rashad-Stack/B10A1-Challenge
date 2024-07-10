@@ -1,0 +1,133 @@
+/* Index of stylesheets */
+/*
+body
+Base Styles 
+Utility Styles
+Header section styles
+Hero section styles
+
+*/
+
+/* Azeret Mono Google font */
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Reset CSS styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  text-align: center;
+}
+
+p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+section {
+  padding: 100px 0;
+}
+
+/* End of Base Styles */
+
+/* Utility Styles */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 24px 17px 24px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.btn-primary {
+  background: rgb(13, 19, 33);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-outline {
+  color: rgb(13, 19, 33);
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+}
+
+/* End of Utility styles */
+
+/* Header section styles */
+header {
+  background-color: #fff;
+  padding: 35px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* End of Header section styles */
+
+/* Hero section styles */
+#hero {
+  background-image: url("../assets/Hero-bg.png");
+  height: 100vh;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  height: 100%;
+  padding: 0 100px;
+}
