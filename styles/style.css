@@ -8,6 +8,7 @@ Hero section styles
 Why Web development section styles
 My Inspiration styles
 My Current Target section styles
+My Next Target section styles
 */
 
 /* Azeret Mono Google font */
@@ -304,7 +305,6 @@ nav {
 }
 .inspiration-card h2 {
   color: rgb(13, 19, 33);
-  font-size: 24px;
   font-weight: 800;
   line-height: 36px;
   letter-spacing: 0%;
@@ -312,3 +312,42 @@ nav {
 }
 
 /* End of My Current Target section styles */
+
+/* My Next Target styles */
+.target-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.target-content-card {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 40px;
+}
+
+.target-content-card-icon {
+  width: 94.78px;
+}
+.target-content-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.target-content-card-text h3 {
+  color: rgb(13, 19, 33);
+  font-weight: 800;
+}
+.target-content-card-text a {
+  margin-top: 16px;
+}
+/* End of My Next Target styles */
