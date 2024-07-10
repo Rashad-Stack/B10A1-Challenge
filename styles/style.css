@@ -25,6 +25,10 @@ Footer section styles
 }
 
 /* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
